@@ -59,7 +59,7 @@ ENV QBT_PROFILE=/home/qbittorrent \
     BT_PORT=34567 \
     QB_USERNAME=admin \
     QB_PASSWORD=adminadmin \
-    LANG=zh_CN.UTF-8 \
+    LANG=en_US.UTF-8 \
     SHELL=/bin/bash \
     PS1="\u@\h:\w \$ "
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.bfsu.edu.cn/g' /etc/apk/repositories \
